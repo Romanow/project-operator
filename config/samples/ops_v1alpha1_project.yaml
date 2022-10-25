@@ -1,0 +1,25 @@
+apiVersion: ops.k8s.romanow/v1alpha1
+kind: Project
+metadata:
+  name: education
+spec:
+  members:
+    - romanow
+    - morozov
+  environments:
+    - name: prod
+      resources:
+        requests:
+          cpu: 1
+          memory: 1Gi
+        limits:
+          cpu: 1
+          memory: 1Gi
+    - name: stage
+      resources:
+        requests:
+          cpu: 1
+          memory: 1Gi
+        limits:
+          cpu: 1
+          memory: 1Gi

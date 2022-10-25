@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  role_name: project-operator
+  author: Romanov Alex (romanowalex@mail.ru)
+  description: Ansible role for configure k8s opeartor for Projects
+  min_ansible_version: 2.9
+collections:
+  - operator_sdk.util
+  - kubernetes.core
